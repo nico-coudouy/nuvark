@@ -235,7 +235,7 @@ export default function App() {
                 </div>
                 <div>
                   <div className="text-2xl font-bold text-brand-primary mb-1">3 en 1</div>
-                  <div className="text-sm text-brand-text-muted">Servicios, 1 solo abono</div>
+                  <div className="text-sm text-brand-text-muted">3 servicios, 1 solo abono</div>
                 </div>
               </div>
             </div>
@@ -624,7 +624,7 @@ export default function App() {
                     <div className="w-10 h-10 rounded-full bg-brand-primary/10 flex items-center justify-center text-brand-primary">
                       <Phone className="w-5 h-5" />
                     </div>
-                    <span className="text-lg">+54 9 223 555-0123</span>
+                    <span className="text-lg">+54 9 223 5937732</span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-10 h-10 rounded-full bg-brand-primary/10 flex items-center justify-center text-brand-primary">
@@ -723,7 +723,7 @@ export default function App() {
 
       {/* WHATSAPP FLOAT */}
       <a 
-        href="https://wa.me/5492235550123" 
+        href="https://wa.me/5492235937732" 
         target="_blank" 
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 w-14 h-14 bg-brand-primary text-brand-bg rounded-full flex items-center justify-center shadow-2xl shadow-brand-primary/40 z-40 hover:scale-110 transition-transform active:scale-95"
