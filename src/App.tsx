@@ -630,7 +630,7 @@ export default function App() {
                     <div className="w-10 h-10 rounded-full bg-brand-primary/10 flex items-center justify-center text-brand-primary">
                       <Mail className="w-5 h-5" />
                     </div>
-                    <span className="text-lg">hola@nuvark.com.ar</span>
+                    <span className="text-lg">nuvark@gmail.com.ar</span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-10 h-10 rounded-full bg-brand-primary/10 flex items-center justify-center text-brand-primary">
