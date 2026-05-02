@@ -543,7 +543,7 @@ export default function App() {
                   <span>Bot Pilot — incluido en tu plan</span>
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 reveal">
-                  Tu negocio atiende solo, las 24 horas
+                 Atención automática, las 24hs
                 </h2>
                 <p className="text-brand-text-muted text-lg leading-relaxed mb-8">
                   Bot Pilot es nuestra plataforma de automatización conversacional. Conecta WhatsApp, Instagram y ManyChat en una sola interfaz con IA integrada. Tus clientes reciben respuestas inmediatas. Vos te despreocupás.
