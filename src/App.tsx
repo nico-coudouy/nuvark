@@ -538,7 +538,7 @@ export default function App() {
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 items-center">
               {/* Left: info */}
               <div className="reveal pt-4">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-primary/10
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-primary/10 border border-brand-primary/30 text-brand-primary text-[11px] font-bold uppercase tracking-wider mb-6">
                   <Bot className="w-3 h-3" />
                   <span>Bot Pilot — incluido en tu plan</span>
                 </div>
