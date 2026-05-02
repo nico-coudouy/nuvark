@@ -529,7 +529,7 @@ export default function App() {
         </section>
 
         {/* 5. BOT PILOT SECTION */}
-        <section id="botpilot" className="py-24 bg-brand-bg-alt relative overflow-hidden">
+        <section id="botpilot" className="pt-32 pb-24 bg-brand-bg-alt relative overflow-hidden">
           <div className="absolute inset-0 pointer-events-none">
             <div className="absolute top-0 right-0 w-96 h-96 bg-brand-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
             <div className="absolute bottom-0 left-0 w-96 h-96 bg-brand-primary/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
@@ -537,8 +537,8 @@ export default function App() {
           <div className="max-w-7xl mx-auto px-6 relative z-10">
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-16 items-center">
               {/* Left: info */}
-              <div className="reveal">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-primary/10 border border-brand-primary/30 text-brand-primary text-[11px] font-bold uppercase tracking-wider mb-6">
+              <div className="reveal pt-4">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-primary/10
                   <Bot className="w-3 h-3" />
                   <span>Bot Pilot — incluido en tu plan</span>
                 </div>
