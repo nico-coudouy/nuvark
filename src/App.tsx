@@ -110,7 +110,12 @@ const ChatDemo = () => {
   const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: 'smooth' });
+    if (bottomRef.current) {
+      const container = bottomRef.current.closest('.overflow-y-auto');
+      if (container) {
+        container.scrollTop = container.scrollHeight;
+      }
+    }
   }, [messages, isTyping]);
 
   const startFlow = (key: DemoKey) => {
